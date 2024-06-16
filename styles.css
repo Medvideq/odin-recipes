@@ -1,3 +1,8 @@
+* {
+    border: 0px solid red;
+}
+
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgba(75, 69, 71, 0.363);
@@ -10,12 +15,16 @@ body {
     text-align: center;
     background-color: rgb(255, 255, 255);
     text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-bottom: 20px;
 }
 
 .menu {
     background-color: white;
     color: rgb(75, 69, 71);
     font-size: 15px;
+    display: inline-block;
+    padding-right: 40px;
+    margin: 0px;
 }
 
 .img {
@@ -34,4 +43,13 @@ body {
 
 .back {
     text-align: center;
+}
+
+
+.about {
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: -52px;
+    background-color: white;
+    padding: 0 40px 0 40px;
 }
