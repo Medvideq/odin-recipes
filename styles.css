@@ -16,6 +16,7 @@ body {
     background-color: rgb(255, 255, 255);
     text-shadow: 1px 1px rgb(0, 0, 0);
     margin-bottom: 20px;
+    font-size: 50px;
 }
 
 .menu {
@@ -52,4 +53,5 @@ body {
     margin-top: -52px;
     background-color: white;
     padding: 0 40px 0 40px;
+    font-size: 15px;
 }
